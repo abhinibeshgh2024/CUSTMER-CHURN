@@ -1,0 +1,387 @@
+{
+  "logisticRegression": {
+    "accuracy": 84.5,
+    "precision": 65.0,
+    "recall": 60.5,
+    "f1": 62.7,
+    "auc": 0.888,
+    "confusionMatrix": {
+      "tn": 143,
+      "fp": 14,
+      "fn": 17,
+      "tp": 26
+    },
+    "rocCurve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.07,
+        "threshold": 0.87
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.93
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "fpr": 0.19,
+        "tpr": 0.395,
+        "threshold": 0.67
+      },
+      {
+        "fpr": 0.235,
+        "tpr": 0.302,
+        "threshold": 0.73
+      },
+      {
+        "fpr": 0.25,
+        "tpr": 0.488,
+        "threshold": 0.6
+      },
+      {
+        "fpr": 0.25,
+        "tpr": 0.14,
+        "threshold": 0.8
+      },
+      {
+        "fpr": 0.324,
+        "tpr": 0.581,
+        "threshold": 0.53
+      },
+      {
+        "fpr": 0.357,
+        "tpr": 0.628,
+        "threshold": 0.47
+      },
+      {
+        "fpr": 0.412,
+        "tpr": 0.698,
+        "threshold": 0.4
+      },
+      {
+        "fpr": 0.468,
+        "tpr": 0.767,
+        "threshold": 0.33
+      },
+      {
+        "fpr": 0.534,
+        "tpr": 0.791,
+        "threshold": 0.27
+      },
+      {
+        "fpr": 0.55,
+        "tpr": 0.837,
+        "threshold": 0.2
+      },
+      {
+        "fpr": 0.554,
+        "tpr": 0.953,
+        "threshold": 0.13
+      },
+      {
+        "fpr": 0.61,
+        "tpr": 0.953,
+        "threshold": 0.07
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.0
+      }
+    ]
+  },
+  "decisionTree": {
+    "accuracy": 85.5,
+    "precision": 64.6,
+    "recall": 72.1,
+    "f1": 68.1,
+    "auc": 0.879,
+    "confusionMatrix": {
+      "tn": 140,
+      "fp": 17,
+      "fn": 12,
+      "tp": 31
+    },
+    "rocCurve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.87
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.93
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "fpr": 0.333,
+        "tpr": 0.326,
+        "threshold": 0.67
+      },
+      {
+        "fpr": 0.35,
+        "tpr": 0.302,
+        "threshold": 0.73
+      },
+      {
+        "fpr": 0.35,
+        "tpr": 0.302,
+        "threshold": 0.8
+      },
+      {
+        "fpr": 0.354,
+        "tpr": 0.721,
+        "threshold": 0.33
+      },
+      {
+        "fpr": 0.354,
+        "tpr": 0.721,
+        "threshold": 0.4
+      },
+      {
+        "fpr": 0.354,
+        "tpr": 0.721,
+        "threshold": 0.47
+      },
+      {
+        "fpr": 0.354,
+        "tpr": 0.721,
+        "threshold": 0.53
+      },
+      {
+        "fpr": 0.354,
+        "tpr": 0.721,
+        "threshold": 0.6
+      },
+      {
+        "fpr": 0.524,
+        "tpr": 0.907,
+        "threshold": 0.27
+      },
+      {
+        "fpr": 0.56,
+        "tpr": 0.93,
+        "threshold": 0.07
+      },
+      {
+        "fpr": 0.56,
+        "tpr": 0.93,
+        "threshold": 0.13
+      },
+      {
+        "fpr": 0.56,
+        "tpr": 0.93,
+        "threshold": 0.2
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.0
+      }
+    ]
+  },
+  "gradientBoosting": {
+    "accuracy": 21.5,
+    "precision": 21.5,
+    "recall": 100.0,
+    "f1": 35.4,
+    "auc": 0.845,
+    "confusionMatrix": {
+      "tn": 0,
+      "fp": 157,
+      "fn": 0,
+      "tp": 43
+    },
+    "rocCurve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.6
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.67
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.73
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.8
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.87
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.93
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "fpr": 0.61,
+        "tpr": 0.953,
+        "threshold": 0.53
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.07
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.13
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.2
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.27
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.33
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.4
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.47
+      }
+    ]
+  },
+  "ensemble": {
+    "accuracy": 86.0,
+    "precision": 65.3,
+    "recall": 74.4,
+    "f1": 69.6,
+    "auc": 0.908,
+    "confusionMatrix": {
+      "tn": 140,
+      "fp": 17,
+      "fn": 11,
+      "tp": 32
+    },
+    "rocCurve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.8
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.87
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 0.93
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "fpr": 0.258,
+        "tpr": 0.535,
+        "threshold": 0.6
+      },
+      {
+        "fpr": 0.267,
+        "tpr": 0.256,
+        "threshold": 0.67
+      },
+      {
+        "fpr": 0.282,
+        "tpr": 0.651,
+        "threshold": 0.53
+      },
+      {
+        "fpr": 0.333,
+        "tpr": 0.047,
+        "threshold": 0.73
+      },
+      {
+        "fpr": 0.385,
+        "tpr": 0.744,
+        "threshold": 0.47
+      },
+      {
+        "fpr": 0.456,
+        "tpr": 0.86,
+        "threshold": 0.4
+      },
+      {
+        "fpr": 0.534,
+        "tpr": 0.953,
+        "threshold": 0.33
+      },
+      {
+        "fpr": 0.582,
+        "tpr": 0.953,
+        "threshold": 0.27
+      },
+      {
+        "fpr": 0.644,
+        "tpr": 0.977,
+        "threshold": 0.2
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.07
+      },
+      {
+        "fpr": 0.785,
+        "tpr": 1.0,
+        "threshold": 0.13
+      }
+    ]
+  },
+  "datasetCharacteristics": {
+    "totalSamples": 1000,
+    "trainSamples": 800,
+    "testSamples": 200
+  }
+}
